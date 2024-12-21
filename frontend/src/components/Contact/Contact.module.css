@@ -1,0 +1,50 @@
+.contact {
+  padding: 50px 20px;
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #ffa500;
+}
+
+.contactMethods {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contactMethod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  width: 120px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.contactMethod:hover {
+  transform: translateY(-5px);
+  background-color: #ffa500;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}

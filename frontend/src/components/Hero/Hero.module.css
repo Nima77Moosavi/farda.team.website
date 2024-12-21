@@ -1,0 +1,65 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+  gap: 40px;
+  flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+  background-color: inherit; /* Matches the dark theme */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  flex: 1;
+  text-align: left; /* Align text to the left */
+  color: white;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffa500; /* Orange for the title */
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #d1d1d1; /* Light gray for readability */
+  margin-bottom: 30px;
+}
+
+.cta {
+  background-color: #ffa500; /* Orange button */
+  color: #121212; /* Dark text for contrast */
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #e59400; /* Darker orange on hover */
+}
+
+.imageContainer {
+  flex: 1;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); */
+}

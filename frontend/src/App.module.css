@@ -1,0 +1,7 @@
+.app {
+  background-color: #121212; /* Dark background */
+  color: white;
+  min-height: 100vh;
+  font-family: "Arial", sans-serif;
+  overflow-x: hidden;
+}
